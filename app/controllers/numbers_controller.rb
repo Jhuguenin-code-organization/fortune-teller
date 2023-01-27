@@ -10,4 +10,9 @@ class NumbersController < ApplicationController
 
     render({ :template => "lottery_stuff/woohoo.html.erb"})
   end 
+
+  def onedie
+   
+    render({ :template => "numbers_templates/one_die/six.html.erb"})
+  end
 end
